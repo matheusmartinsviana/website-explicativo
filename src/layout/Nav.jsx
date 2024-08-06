@@ -1,7 +1,9 @@
 function Nav(){
     return (
         <nav>
-        nav
+        <ul>
+            <li><a href="/website-explicativo/devops">DevOps</a></li>
+        </ul>
         </nav>
     );
 }
