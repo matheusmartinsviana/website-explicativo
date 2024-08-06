@@ -1,0 +1,33 @@
+.footerContainer {
+    display: flex;
+    align-items: self-start;
+    justify-content: space-evenly;
+}
+
+.footerSection ul li a {
+    font-size: 16px;
+}
+
+.footerSection:nth-child(1) {
+    font-size: 19px;
+    max-width: 400px;
+    text-align: left;
+}
+
+.footerSection:nth-child(1) p {
+    font-size: 16px;
+}
+
+.footerSection:nth-child(1) a,
+h2,
+h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .footerContainer {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
