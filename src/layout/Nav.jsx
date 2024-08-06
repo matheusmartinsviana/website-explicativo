@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 function Nav(){
     return (
         <nav>
         <ul>
-            <li><a href="/website-explicativo/devops">DevOps</a></li>
+            <li><Link to="/website-explicativo/devops">DevOps</Link></li>
         </ul>
         </nav>
     );
