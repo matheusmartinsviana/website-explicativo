@@ -16,7 +16,6 @@ function Nav() {
         <div className="App">
             <header className="App-header">
                 <nav className={styles.navbar}>
-
                     <a href='#' className={styles.logo}>Descomplicando Linguangens e Ferramentas de Dev </a>
                     <ul className={`${styles.navMenu} ${isActive ? styles.active : ''}`}>
                         <li onClick={removeActive}>
@@ -26,7 +25,7 @@ function Nav() {
                             <a href='#' className={styles.navLink}>Início</a>
                         </li>
                         <li onClick={removeActive}>
-                            <a href='#' className={styles.navLink}>Projetos</a>
+                            <a href='#' className={styles.navLink}>Ferramentas e Linguagens</a>
                         </li>
                         <li onClick={removeActive}>
                             <a href='#' className={styles.navLink}>Contato</a>
