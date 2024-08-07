@@ -1,7 +1,9 @@
+import TopicsSlider from "../components/TopicsSlider";
+
 function Home(){
     return (
         <main>
-            home page
+            <TopicsSlider />
         </main>
     );
 }
