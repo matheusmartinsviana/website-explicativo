@@ -43,45 +43,33 @@ function TopicsSlider() {
             <Slider {...settings}>
                 <div>
                     <img src="#" height={65} width={65} alt="HTML Image" />
-                    <a href="#">
-                        <h3>HTML</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    </a>
+                    <h3>HTML</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div>
-                    <a href="#">
-                        <img src="#" height={65} width={65} alt="CSS Image" />
-                        <h3>CSS</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    </a>
+                    <img src="#" height={65} width={65} alt="CSS Image" />
+                    <h3>CSS</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div>
-                    <a href="#">
-                        <img src="#" height={65} width={65} alt="JS Image" />
-                        <h3>JS</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    </a>
+                    <img src="#" height={65} width={65} alt="JS Image" />
+                    <h3>JS</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div>
-                    <a href="#">
-                        <img src="#" height={65} width={65} alt="React Image" />
-                        <h3>React</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    </a>
+                    <img src="#" height={65} width={65} alt="React Image" />
+                    <h3>React</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div>
-                    <a href="#">
-                        <img src="#" height={65} width={65} alt="Node.js Image" />
-                        <h3>Node.js</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    </a>
+                    <img src="#" height={65} width={65} alt="Node.js Image" />
+                    <h3>Node.js</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div>
-                    <a href="#">
-                        <img src="#" height={65} width={65} alt="DevOps Image" />
-                        <h3>DevOps</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    </a>
+                    <img src="#" height={65} width={65} alt="DevOps Image" />
+                    <h3>DevOps</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                 </div>
             </Slider>
         </div>
