@@ -1,31 +1,69 @@
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react';
 import styles from './Styles/Nav.module.css';
+import { Link } from 'react-router-dom';
 
 function Nav() {
-
     const [isActive, setIsActive] = useState(false);
+    const [dropdown, setDropdown] = useState(false);
+    const dropdownRef = useRef(null);
 
     const toggleActiveClass = () => {
         setIsActive(!isActive);
     };
 
     const removeActive = () => {
-        setIsActive(false)
-    }
+        setIsActive(false);
+    };
+
+    const toggleDropdown = () => {
+        setDropdown(!dropdown);
+    };
+
+    // Fecha o dropdown ao clicar fora dele
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+                setDropdown(false);
+            }
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, []);
+
     return (
         <div className="App">
             <header className="App-header">
                 <nav className={styles.navbar}>
-                    <a href='#' className={styles.logo}>Descomplicando Linguangens e Ferramentas de Dev </a>
+                    <a href='#' className={styles.logo}>Descomplicando Linguagens e Ferramentas de Dev</a>
                     <ul className={`${styles.navMenu} ${isActive ? styles.active : ''}`}>
-                        <li onClick={removeActive}>
-                            <a href='#' className={styles.navLink}></a>
-                        </li>
                         <li onClick={removeActive}>
                             <a href='#' className={styles.navLink}>Início</a>
                         </li>
-                        <li onClick={removeActive}>
-                            <a href='#' className={styles.navLink}>Ferramentas e Linguagens</a>
+                        <li className={styles.dropdown} ref={dropdownRef}>
+                            <button onClick={toggleDropdown} className={styles.navLink}>Tecnologias</button>
+                            <ul className={`${styles.dropdownLinks} ${dropdown ? styles.activeDropdown : styles.inactiveDropdown}`}>
+                                <li>
+                                    <Link className={styles.dropdownItemLink} to="/html">HTML</Link>
+                                </li>
+                                <li>
+                                    <Link className={styles.dropdownItemLink} to="/css">CSS</Link>
+                                </li>
+                                <li>
+                                    <Link className={styles.dropdownItemLink} to="/javascript">JavaScript</Link>
+                                </li>
+                                <li>
+                                    <Link className={styles.dropdownItemLink} to="/nodejs">Node.js</Link>
+                                </li>
+                                <li>
+                                    <Link className={styles.dropdownItemLink} to="/reactjs">React.js</Link>
+                                </li>
+                                <li>
+                                    <Link className={styles.dropdownItemLink} to="/devops">DevOps</Link>
+                                </li>
+                            </ul>
                         </li>
                         <li onClick={removeActive}>
                             <a href='#' className={styles.navLink}>Contato</a>
@@ -42,4 +80,4 @@ function Nav() {
     );
 }
 
-export default Nav
+export default Nav;
