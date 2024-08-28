@@ -1,4 +1,4 @@
-import TopicsSlider from "../components/TopicsSlider";
+import TopicsSlider from "../../components/TopicsSlider";
 
 function Home(){
     return (
