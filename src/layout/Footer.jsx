@@ -1,36 +1,37 @@
+import { Link } from 'react-router-dom';
 import styles from './Styles/Footer.module.css';
 
 function Footer() {
     return (
         <footer className={styles.footerContainer}>
             <section className={styles.footerSection}>
-                <a href="#">Descomplicando Linguagens e Ferramentas de Desenvolvimento</a>
+                <Link href="#">Descomplicando Linguagens e Ferramentas de Desenvolvimento</Link>
                 <p>Este site reflete o estudo nos tópicos de ferramentas e linguagens apresentadas neste website.</p>
             </section>
             <section className={styles.footerSection}>
                 <h2>Mapa do site</h2>
                 <ul>
-                    <li><a href="#">HTML</a></li>
-                    <li><a href="#">CSS</a></li>
-                    <li><a href="#">JS</a></li>
-                    <li><a href="#">React</a></li>
-                    <li><a href="#">Node.js</a></li>
-                    <li><a href="#">DevOps</a></li>
+                    <li><Link href="#">HTML</Link></li>
+                    <li><Link href="#">CSS</Link></li>
+                    <li><Link href="#">JS</Link></li>
+                    <li><Link href="#">React</Link></li>
+                    <li><Link href="#">Node.js</Link></li>
+                    <li><Link href="#">DevOps</Link></li>
                 </ul>
             </section>
             <section className={styles.footerSection}>
                 <h3>Colaboradores</h3>
                 <ul>
                     <li>
-                        <a href="#">Matheus Martins Viana</a>
+                        <Link href="#">Matheus Martins Viana</Link>
                         <i></i>
                     </li>
                     <li>
-                        <a href="#">Dayane Nogueira</a>
+                        <Link href="#">Dayane Nogueira</Link>
                         <i></i>
                     </li>
                     <li>
-                        <a href="#">Davi Finkler</a>
+                        <Link href="#">Davi Finkler</Link>
                         <i></i>
                     </li>
                 </ul>
