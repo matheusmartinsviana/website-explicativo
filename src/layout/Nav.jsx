@@ -37,10 +37,10 @@ function Nav() {
         <div className="App">
             <header className="App-header">
                 <nav className={styles.navbar}>
-                    <a href='#' className={styles.logo}>Descomplicando Linguagens e Ferramentas de Dev</a>
+                    <Link to="/" className={styles.logo}>Descomplicando Linguagens e Ferramentas de Dev</Link>
                     <ul className={`${styles.navMenu} ${isActive ? styles.active : ''}`}>
                         <li onClick={removeActive}>
-                            <a href='#' className={styles.navLink}>Início</a>
+                            <Link to="/" className={styles.navLink}>Início</Link>
                         </li>
                         <li className={styles.dropdown} ref={dropdownRef}>
                             <button onClick={toggleDropdown} className={styles.navLink}>Tecnologias</button>
@@ -66,7 +66,7 @@ function Nav() {
                             </ul>
                         </li>
                         <li onClick={removeActive}>
-                            <a href='#' className={styles.navLink}>Contato</a>
+                            <Link to="/contact" className={styles.navLink}>Contato</Link>
                         </li>
                     </ul>
                     <div className={`${styles.hamburger} ${isActive ? styles.active : ''}`} onClick={toggleActiveClass}>
