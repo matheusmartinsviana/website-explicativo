@@ -17,7 +17,6 @@
     text-align: left;
 }
 
-
 /* ul  */
 .navMenu {
     display: flex;
@@ -109,4 +108,21 @@
     .navbar a {
         font-size: 1.3rem;
     }
+}
+
+.dropdownLinks {
+    border: 0;
+}
+
+.navLink {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.activeDropdown {
+    background-color: rgb(233, 233, 233);
+    z-index: 1;
+    border: 0;
 }
