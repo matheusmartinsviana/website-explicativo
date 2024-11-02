@@ -1,0 +1,22 @@
+.html-structures-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.html-list-elements {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap; /* Joga a div pra baixo caso passe o tamanho da tela */
+  align-items: start;
+  gap: 20px;
+}
+
+.html-list-elements li {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
