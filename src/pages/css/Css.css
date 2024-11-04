@@ -1,0 +1,180 @@
+.content {
+    padding: 30px;
+    line-height: 45px;
+}
+
+.main {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.boxExample {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+
+.example-1 {
+    color: red;
+}
+
+.example-2 {
+    font-size: 10px;
+}
+
+.example-3 {
+    font-weight: bold;
+}
+
+.example-4 {
+    line-height: 12px;
+}
+
+.example-5 {
+    text-align: center;
+}
+
+.example-6 {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    position: relative;
+    top: 13px;
+}
+
+.example-7 {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    position: relative;
+    right: 13px;
+}
+
+.example-8 {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    position: relative;
+    bottom: 13px;
+}
+
+.example-9 {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    position: relative;
+    left: 13px;
+}
+
+.example-10 {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    margin-left: 10px;
+}
+
+.boxExample-11 {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+}
+
+.example-11 {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+}
+
+.example-12 {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border: 3px;
+    border-color: blue;
+    border-style: dotted;
+}
+
+.example-13 {
+    height: 20px;
+    width: 50px;
+    background-color: red;
+}
+
+.example-14 {
+    height: 50px;
+    width: 20px;
+    background-color: red;
+}
+
+.example-15 {
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+}
+
+.example-16 {
+    height: 20px;
+    width: 20px;
+    background-image: '../assets/webcam.jpg';
+}
+
+.example-17 {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+}
+
+.example-18 {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+}
+
+.example-19 {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+}
+
+.boxExample-19 {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.example-20 {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+}
+
+.boxExample-20 {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.boxExample-21 {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+    grid-gap: 2px;
+}
+
+.example-21 {
+    height: 20px;
+    background-color: red;
+}
