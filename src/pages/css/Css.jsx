@@ -1,8 +1,9 @@
 import "../styles/cssPage.css";
+
 export default function Css() {
   return (
     <>
-      <div>
+      <div className="css-content">
         <h2>Seletores</h2>
         <p>
           Classes(.): Através de uma classe é possível estilizar vários
@@ -38,6 +39,11 @@ export default function Css() {
           Color: A propriedade color é usada para definir a cor de um texto.
           Pode ser especificada através do nome, do valor HEX ou valor RGB.
         </p>
+        <div className="css-main">
+          <div className="example-1">
+            Exemplo
+          </div>
+        </div>
         <p>
           Font-size: Com o font-size se controla o tamanho da fonte através de
           valores absolutos ou relativos. Os absolutos especificam o tamanho e
@@ -45,19 +51,41 @@ export default function Css() {
           Os relativos especificam o tamanho baseado nos outros elementos e
           permite ao usuário trocar o valor em todos os navegadores.
         </p>
+        <div className="css-main">
+          <div className="example-2">
+            Exemplo
+          </div>
+        </div>
         <p>
           Font-weight: O font-weight define a espessura de uma fonte, podendo
           ser normal ou negrito.
         </p>
+        <div className="css-main">
+          <div className="example-3">
+            Exemplo
+          </div>
+        </div>
         <p>
           Line-height: Através do line-height se define o espaço entre as
           linhas.
         </p>
+        <div className="css-main">
+          <div className="example-4">
+            Exemplo
+            <br />
+            Exemplo
+          </div>
+        </div>
         <p>
           Text-align: O text-align define o alinhamento horizontal do texto,
           podendo ser alinhado para a esquerda ou direita, centralizado ou
           justificado.
         </p>
+        <div className="css-main">
+          <div className="example-5">
+            Exemplo
+          </div>
+        </div>
         <h2>Propriedades de layout</h2>
         <p>
           Display: A propriedade display é usada para definir a forma como um
@@ -69,9 +97,33 @@ export default function Css() {
           por um elemento.
         </p>
         <p>Top: Topo (exemplo)</p>
+        <div className="css-main">
+          <div className="box-example">
+            <div className="example-6">
+            </div>
+          </div>
+        </div>
         <p>Right: Direita (exemplo)</p>
+        <div className="css-main">
+          <div className="box-example">
+            <div className="example-7">
+            </div>
+          </div>
+        </div>
         <p>Bottom: Baixo (exemplo)</p>
+        <div className="css-main">
+          <div className="box-example">
+            <div className="example-8">
+            </div>
+          </div>
+        </div>
         <p>Left: Esquerda (exemplo)</p>
+        <div className="css-main">
+          <div className="box-example">
+            <div className="example-9">
+            </div>
+          </div>
+        </div>
         <p>
           Float: Através do float você especifíca como um elemento deve flutuar
           na página.
@@ -87,38 +139,92 @@ export default function Css() {
           lados (margem superior, inferior, direita e esquerda) ou em lados
           específicos.
         </p>
+        <div className="css-main">
+          <div className="box-example">
+            <div className="example-10">
+            </div>
+          </div>
+        </div>
         <p>
           Padding: A propriedade padding define o preenchimento interno de um
           elemento, ou seja, o espaço entre o conteúdo do elemento e sua borda.
           Pode ser aplicada em todos os lados ou em lados específicos.
         </p>
+        <div className="css-main">
+          <div className="box-example-11">
+            <div className="example-11">
+            </div>
+          </div>
+        </div>
         <p>
           Border: A propriedade border define a borda de um elemento. Pode
           especificar a largura, o estilo e a cor da borda.
         </p>
+        <div className="css-main">
+          <div className="box-example">
+            <div className="example-12">
+            </div>
+          </div>
+        </div>
         <p>Widht: A propriedade width define a largura de um elemento.</p>
+        <div className="css-main">
+          <div className="box-example">
+            <div className="example-13">
+            </div>
+          </div>
+        </div>
         <p>Height: A propriedade height define a altura de um elemento.</p>
+        <div className="css-main">
+          <div className="box-example">
+            <div className="example-14">
+            </div>
+          </div>
+        </div>
         <h2>Propriedades de Background</h2>
         <p>
           background-color: A propriedade background-color define a cor de fundo
           de um elemento. Pode ser especificada por nome, valor HEX ou valor
           RGB.
         </p>
+        <div className="css-main">
+          <div className="box-example">
+            <div className="example-15">
+            </div>
+          </div>
+        </div>
         <p>
           background-image: A propriedade background-image define uma imagem de
           fundo para um elemento. A URL da imagem é especificada com o uso de
           `url('caminho_da_imagem')`.
         </p>
+        <div className="css-main">
+          <div className="box-example">
+            <div className="example-16">
+            </div>
+          </div>
+        </div>
         <p>
           background-size: A propriedade background-size especifica o tamanho da
           imagem de fundo. Pode ser definido como valores absolutos, relativos,
           `cover`, ou `contain`.
         </p>
+        <div className="css-main">
+          <div className="box-example">
+            <div className="example-17">
+            </div>
+          </div>
+        </div>
         <p>
           background-repeat: A propriedade background-repeat define se e como a
           imagem de fundo deve se repetir. Os valores comuns incluem `repeat`,
           `no-repeat`, `repeat-x` e `repeat-y`.
         </p>
+        <div className="css-main">
+          <div className="box-example">
+            <div className="example-18">
+            </div>
+          </div>
+        </div>
         <h2>Propriedades de Flexbox e Grid</h2>
         <p>
           flex: A propriedade flex é usada para definir a capacidade de
@@ -132,12 +238,24 @@ export default function Css() {
           podem incluir `flex-start`, `flex-end`, `center`, `space-between`, e
           `space-around`.
         </p>
+        <div className="css-main">
+          <div className="box-example-19">
+            <div className="example-19">
+            </div>
+          </div>
+        </div>
         <p>
           align-items: A propriedade align-items define o alinhamento dos itens
           ao longo do eixo transversal em um container flexível. Os valores
           comuns incluem `stretch`, `center`, `flex-start`, `flex-end`, e
           `baseline`.
         </p>
+        <div className="css-main">
+          <div className="box-example-20">
+            <div className="example-20">
+            </div>
+          </div>
+        </div>
         <p>
           display: grid: A propriedade `display: grid` transforma um elemento em
           um container de grid, permitindo organizar elementos em linhas e
@@ -152,6 +270,16 @@ export default function Css() {
           e colunas de um grid. Pode ser especificada em valores de unidade de
           medida como `px`, `em`, etc.
         </p>
+        <div className="css-main">
+          <div className="box-example-21">
+            <div className="example-21">
+            </div>
+            <div className="example-21">
+            </div>
+            <div className="example-21">
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

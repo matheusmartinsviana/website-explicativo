@@ -3,8 +3,7 @@ import "../styles/react.css";
 export default function ReactPage() {
     return (
         <>
-        
-            <div>
+            <div className="react-content">
                 <h2>Hooks</h2>
                 <p>Os hooks permitem organizar a lógica usada em um componente. </p>
                 <p>useState: É um hook do React que permite adicionar estado a componentes funcionais. Ele retorna um array com dois elementos: o estado atual e uma função que permite atualizar esse estado.</p>
