@@ -40,9 +40,7 @@ export default function Css() {
           Pode ser especificada através do nome, do valor HEX ou valor RGB.
         </p>
         <div className="css-main">
-          <div className="example-1">
-            Exemplo
-          </div>
+          <div className="example-1">Exemplo</div>
         </div>
         <p>
           Font-size: Com o font-size se controla o tamanho da fonte através de
@@ -52,18 +50,14 @@ export default function Css() {
           permite ao usuário trocar o valor em todos os navegadores.
         </p>
         <div className="css-main">
-          <div className="example-2">
-            Exemplo
-          </div>
+          <div className="example-2">Exemplo</div>
         </div>
         <p>
           Font-weight: O font-weight define a espessura de uma fonte, podendo
           ser normal ou negrito.
         </p>
         <div className="css-main">
-          <div className="example-3">
-            Exemplo
-          </div>
+          <div className="example-3">Exemplo</div>
         </div>
         <p>
           Line-height: Através do line-height se define o espaço entre as
@@ -82,9 +76,7 @@ export default function Css() {
           justificado.
         </p>
         <div className="css-main">
-          <div className="example-5">
-            Exemplo
-          </div>
+          <div className="example-5">Exemplo</div>
         </div>
         <h2>Propriedades de layout</h2>
         <p>
@@ -99,29 +91,25 @@ export default function Css() {
         <p>Top: Topo (exemplo)</p>
         <div className="css-main">
           <div className="box-example">
-            <div className="example-6">
-            </div>
+            <div className="example-6"></div>
           </div>
         </div>
         <p>Right: Direita (exemplo)</p>
         <div className="css-main">
           <div className="box-example">
-            <div className="example-7">
-            </div>
+            <div className="example-7"></div>
           </div>
         </div>
         <p>Bottom: Baixo (exemplo)</p>
         <div className="css-main">
           <div className="box-example">
-            <div className="example-8">
-            </div>
+            <div className="example-8"></div>
           </div>
         </div>
         <p>Left: Esquerda (exemplo)</p>
         <div className="css-main">
           <div className="box-example">
-            <div className="example-9">
-            </div>
+            <div className="example-9"></div>
           </div>
         </div>
         <p>
@@ -141,8 +129,7 @@ export default function Css() {
         </p>
         <div className="css-main">
           <div className="box-example">
-            <div className="example-10">
-            </div>
+            <div className="example-10"></div>
           </div>
         </div>
         <p>
@@ -152,8 +139,7 @@ export default function Css() {
         </p>
         <div className="css-main">
           <div className="box-example-11">
-            <div className="example-11">
-            </div>
+            <div className="example-11"></div>
           </div>
         </div>
         <p>
@@ -162,22 +148,19 @@ export default function Css() {
         </p>
         <div className="css-main">
           <div className="box-example">
-            <div className="example-12">
-            </div>
+            <div className="example-12"></div>
           </div>
         </div>
         <p>Widht: A propriedade width define a largura de um elemento.</p>
         <div className="css-main">
           <div className="box-example">
-            <div className="example-13">
-            </div>
+            <div className="example-13"></div>
           </div>
         </div>
         <p>Height: A propriedade height define a altura de um elemento.</p>
         <div className="css-main">
           <div className="box-example">
-            <div className="example-14">
-            </div>
+            <div className="example-14"></div>
           </div>
         </div>
         <h2>Propriedades de Background</h2>
@@ -188,8 +171,7 @@ export default function Css() {
         </p>
         <div className="css-main">
           <div className="box-example">
-            <div className="example-15">
-            </div>
+            <div className="example-15"></div>
           </div>
         </div>
         <p>
@@ -199,8 +181,7 @@ export default function Css() {
         </p>
         <div className="css-main">
           <div className="box-example">
-            <div className="example-16">
-            </div>
+            <div className="example-16"></div>
           </div>
         </div>
         <p>
@@ -210,8 +191,7 @@ export default function Css() {
         </p>
         <div className="css-main">
           <div className="box-example">
-            <div className="example-17">
-            </div>
+            <div className="example-17"></div>
           </div>
         </div>
         <p>
@@ -221,8 +201,7 @@ export default function Css() {
         </p>
         <div className="css-main">
           <div className="box-example">
-            <div className="example-18">
-            </div>
+            <div className="example-18"></div>
           </div>
         </div>
         <h2>Propriedades de Flexbox e Grid</h2>
@@ -240,8 +219,7 @@ export default function Css() {
         </p>
         <div className="css-main">
           <div className="box-example-19">
-            <div className="example-19">
-            </div>
+            <div className="example-19"></div>
           </div>
         </div>
         <p>
@@ -252,8 +230,7 @@ export default function Css() {
         </p>
         <div className="css-main">
           <div className="box-example-20">
-            <div className="example-20">
-            </div>
+            <div className="example-20"></div>
           </div>
         </div>
         <p>
@@ -272,12 +249,9 @@ export default function Css() {
         </p>
         <div className="css-main">
           <div className="box-example-21">
-            <div className="example-21">
-            </div>
-            <div className="example-21">
-            </div>
-            <div className="example-21">
-            </div>
+            <div className="example-21"></div>
+            <div className="example-21"></div>
+            <div className="example-21"></div>
           </div>
         </div>
       </div>

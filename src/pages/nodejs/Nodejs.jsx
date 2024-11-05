@@ -1,17 +1,16 @@
-import { useEffect } from "react";
-import Prism from "prismjs";
-import "prismjs/themes/prism.css";
 import nodeJsLogo from "../../assets/images/nodejs/nodejs.webp";
 import expressLogo from "../../assets/images/nodejs/express-js.webp";
 import mongooseLogo from "../../assets/images/nodejs/mongoose.webp";
 import sequelizeLogo from "../../assets/images/nodejs/sequelize.webp";
 import "../styles/nodejs.css";
+import { useEffect } from "react";
+import Prism from "prismjs";
+import "prismjs/themes/prism.css";
 
 export default function Nodejs() {
   useEffect(() => {
     Prism.highlightAll();
   }, []);
-
   return (
     <div className="nodejs-container">
       <section className="nodejs-container-title">
