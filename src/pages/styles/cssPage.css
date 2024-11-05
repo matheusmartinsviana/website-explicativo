@@ -119,21 +119,23 @@
 }
 
 .example-16 {
-  height: 20px;
-  width: 20px;
-  background-image: "../assets/webcam.jpg";
+  height: 40px;
+  width: 40px;
+  background-image: url(https://picsum.photos/seed/picsum/200/300);
 }
 
 .example-17 {
-  height: 20px;
-  width: 20px;
-  background-color: red;
+  height: 40px;
+  width: 40px;
+  background-image: url(https://picsum.photos/seed/picsum/200/300);
+  background-size: cover;
 }
 
 .example-18 {
-  height: 20px;
-  width: 20px;
-  background-color: red;
+  height: 40px;
+  width: 40px;
+  background-image: url(https://picsum.photos/seed/picsum/200/300);
+  background-repeat: repeat;
 }
 
 .example-19 {
