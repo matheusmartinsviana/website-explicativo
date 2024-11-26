@@ -12,21 +12,23 @@ import Contact from "../pages/contact/Contact";
 
 function AppRoutes() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Body />}>
-          <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/html" element={<Html />} />
-          <Route path="/css" element={<Css />} />
-          <Route path="/javascript" element={<Javascript />} />
-          <Route path="/nodejs" element={<Nodejs />} />
-          <Route path="/reactjs" element={<ReactPage />} />
-          <Route path="/devops" element={<DevOps />} />
-          <Route path="*" element={<NotFound />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Body />}>
+            <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/html" element={<Html />} />
+            <Route path="/css" element={<Css />} />
+            <Route path="/javascript" element={<Javascript />} />
+            <Route path="/nodejs" element={<Nodejs />} />
+            <Route path="/reactjs" element={<ReactPage />} />
+            <Route path="/devops" element={<DevOps />} />
+            <Route path="*" element={<NotFound />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
