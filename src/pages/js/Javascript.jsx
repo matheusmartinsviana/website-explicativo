@@ -10,6 +10,16 @@ export default function Javascript() {
   return (
     <>
       <div className="js-elements">
+        <header className="technology-header">
+          <img
+            width={200}
+            loading="lazy"
+            height={"auto"}
+            src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png"
+            alt="JS Logo"
+          />
+          <h1>Sobre JS</h1>
+        </header>
         <ul className="js-elements-list">
           <li className="js-element">
             <h3>document.getElementById</h3>

@@ -1,3 +1,14 @@
 .sliderContainer {
-    padding: 100px;
+  padding: 100px;
+}
+
+.section-topics-technology {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.logo-technology-topics {
+  object-fit: cover;
 }

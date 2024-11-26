@@ -14,7 +14,15 @@ export default function Nodejs() {
   return (
     <div className="nodejs-container">
       <section className="nodejs-container-title">
-        <img width={200} height={"auto"} src={nodeJsLogo} alt="Node.js Logo" />
+        <header className="technology-header">
+          <img
+            width={200}
+            loading="lazy"
+            height={"auto"}
+            src="https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png"
+            alt="Node.js Logo"
+          />
+        </header>
         <div>
           <p>
             Node.js® é um ambiente de execução JavaScript gratuito, de código

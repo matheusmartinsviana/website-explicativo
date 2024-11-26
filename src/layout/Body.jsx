@@ -3,13 +3,15 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 
 function Body() {
-    return (
-        <>
-            <Nav />
-            <Outlet />
-            <Footer />
-        </>
-    );
+  return (
+    <>
+      <Nav />
+      <div className="main-page-container">
+        <Outlet />
+      </div>
+      <Footer />
+    </>
+  );
 }
 
-export default Body
+export default Body;

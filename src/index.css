@@ -1,10 +1,20 @@
-/* default styling */
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", monospace;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.main-page-container {
+  margin: 40px 0;
+  max-width: 1200px;
 }
 
 ul {
@@ -14,4 +24,72 @@ ul {
 a {
   text-decoration: none;
   color: black;
+}
+
+.technology-header img {
+  filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.15));
+  width: 100px !important;
+  height: auto;
+  object-fit: cover;
+}
+
+.logo-technology-topics {
+  filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.15));
+  width: 60px !important;
+  height: auto;
+}
+
+@media (max-width: 1024px) {
+  body {
+    display: block;
+  }
+}
+
+details {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 16px;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease-in-out;
+}
+
+details[open] {
+  background-color: #e6f7ff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #333;
+  padding: 8px 0;
+  position: relative;
+}
+
+summary::marker {
+  font-size: 1.2rem;
+  color: #4070f4;
+}
+
+summary:hover {
+  color: #0056b3;
+}
+
+summary::after {
+  position: absolute;
+  right: 0;
+  font-size: 0.9rem;
+  color: #888;
+  transition: transform 0.2s ease;
+}
+
+details[open] summary::after {
+  transform: rotate(-180deg);
+}
+
+details > *:not(summary) {
+  margin-top: 12px;
+  color: #555;
+  line-height: 1.6;
 }
