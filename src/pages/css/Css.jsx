@@ -240,7 +240,6 @@ export default function Css() {
           uma sequência de animações, especificando as etapas (keyframes) e o
           tempo da animação.
         </p>
-        <img src={cssLogo} alt="css logo" />
       </div>
     </>
   );

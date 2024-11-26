@@ -1,0 +1,10 @@
+.docker-container,
+.pm2-container {
+  margin: 50px 0;
+}
+
+.technology-header-pm2 img,
+.technology-header-docker img {
+  width: 200px !important;
+  height: auto !important;
+}

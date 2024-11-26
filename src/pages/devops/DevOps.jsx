@@ -4,6 +4,7 @@ import dockerLogo from "../../assets/images/docker/dockerlogo.webp";
 import pm2Logo from "../../assets/images/pm2/pm2logo.webp";
 import Prism from "prismjs";
 import "prismjs/themes/prism.css";
+import "../styles/devops.css";
 
 function DevOps() {
   useEffect(() => {
@@ -171,8 +172,8 @@ jobs:
           </li>
         </ul>
       </section>
-      <section>
-        <header className="technology-header">
+      <section className="pm2-container">
+        <header className="technology-header-pm2">
           <img
             src={pm2Logo}
             alt=" Docker Logo"
@@ -283,8 +284,8 @@ $ yarn global add pm2`}
           </p>
         </footer>
       </section>
-      <section>
-        <header className="technology-header">
+      <section className="docker-container">
+        <header className="technology-header-docker">
           <img
             src="https://user-images.githubusercontent.com/25181517/117207330-263ba280-adf4-11eb-9b97-0ac5b40bc3be.png"
             alt=" Docker Logo"
