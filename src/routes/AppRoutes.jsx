@@ -24,7 +24,7 @@ function AppRoutes() {
             <Route path="/nodejs" element={<Nodejs />} />
             <Route path="/reactjs" element={<ReactPage />} />
             <Route path="/devops" element={<DevOps />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="*" element={<Home />} />
           </Route>
         </Routes>
       </BrowserRouter>
