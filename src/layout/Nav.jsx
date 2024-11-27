@@ -4,7 +4,6 @@ import GlobalTheme from "../globals";
 import { lightTheme, darkTheme } from "../theme";
 import Switch from "../components/Switch.jsx";
 import { Link, useNavigate } from "react-router-dom";
-import "./Styles/nav.css";
 
 function Nav() {
   const [isToggled, setIsToggled] = useState(false);
