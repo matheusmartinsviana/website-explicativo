@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import styled, { ThemeProvider } from "styled-components";
+import { ThemeProvider } from "styled-components";
 import GlobalTheme from "../globals";
 import { lightTheme, darkTheme } from "../theme";
 import Switch from "../components/Switch.jsx";
