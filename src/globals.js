@@ -31,12 +31,13 @@ export default createGlobalStyle`
     color: ${({ theme }) => theme.linkHover || theme.text};
   }
 
-  .navMenu,
   select,
   option {
     color: ${({ theme }) => theme.text || "#000"};
   }
+
   select,
+  .navMenu.active,
   option {
     background: ${({ theme }) => theme.body || "#fff"};
   }
