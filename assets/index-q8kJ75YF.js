@@ -96,12 +96,13 @@ Error generating stack: `+o.message+`
     color: ${({theme:e})=>e.linkHover||e.text};
   }
 
-  .navMenu,
   select,
   option {
     color: ${({theme:e})=>e.text||"#000"};
   }
+
   select,
+  .navMenu.active,
   option {
     background: ${({theme:e})=>e.body||"#fff"};
   }
