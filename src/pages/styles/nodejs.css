@@ -1,0 +1,9 @@
+.database-header {
+  margin: 50px 0;
+}
+
+.technology-header-moongose img,
+.technology-header-sequelize img {
+  width: 200px !important;
+  height: auto !important;
+}

@@ -10,10 +10,10 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 20px;
 }
 
 .main-page-container {
+  padding: 20px;
   margin: 40px 0;
   max-width: 1200px;
 }
@@ -93,4 +93,10 @@ details > *:not(summary) {
   margin-top: 12px;
   color: #555;
   line-height: 1.6;
+}
+
+.toogle-checkbox-theme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

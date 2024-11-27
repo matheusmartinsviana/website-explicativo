@@ -113,12 +113,14 @@ server.listen(port, hostname, () => {
 
       <section className="express-example-container">
         <div className="express-content">
-          <img
-            width={200}
-            height={"auto"}
-            src={expressLogo}
-            alt="Express.js Logo"
-          />
+          <header className="technology-header">
+            <img
+              width={200}
+              height={"auto"}
+              src={expressLogo}
+              alt="Express.js Logo"
+            />
+          </header>
           <h2>Express.js</h2>
           <p>
             O Express é um framework que facilita o desenvolvimento de
@@ -162,12 +164,14 @@ app.listen(port, () => {
         </p>
 
         <div className="database-header">
-          <img
-            width={200}
-            height={"auto"}
-            src={mongooseLogo}
-            alt="Mongoose Logo"
-          />
+          <header className="technology-header-mongoose">
+            <img
+              width={200}
+              height={"auto"}
+              src={mongooseLogo}
+              alt="Mongoose Logo"
+            />
+          </header>
           <h2>Exemplo com Mongoose</h2>
         </div>
         <pre>
@@ -192,12 +196,14 @@ user.save().then(() => console.log('User saved!'));
         </pre>
 
         <div className="database-header">
-          <img
-            width={200}
-            height={"auto"}
-            src={sequelizeLogo}
-            alt="Sequelize Logo"
-          />
+          <header className="technology-header-sequelize">
+            <img
+              width={200}
+              height={"auto"}
+              src={sequelizeLogo}
+              alt="Sequelize Logo"
+            />
+          </header>
           <h2>Exemplo com Sequelize</h2>
         </div>
         <pre>
