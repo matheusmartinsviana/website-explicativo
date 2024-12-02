@@ -1,0 +1,35 @@
+.contactContainer {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.contactTitle {
+  margin-bottom: 40px;
+}
+
+.contact1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.contact1 img {
+  border-radius: 50%;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.socialMedia {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialMedia svg {
+  color: rgb(80, 80, 80);
+  filter: drop-shadow(1px 1px 10px rgba(0, 0, 0, 0.3));
+}

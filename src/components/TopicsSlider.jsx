@@ -58,7 +58,6 @@ function TopicsSlider() {
               alt="HTML Image"
             />
             <h3>HTML</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </Link>
         </div>
         <div className="section-topics-technology">
@@ -71,7 +70,6 @@ function TopicsSlider() {
               alt="CSS Image"
             />
             <h3>CSS</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </Link>
         </div>
         <div className="section-topics-technology">
@@ -84,7 +82,6 @@ function TopicsSlider() {
               alt="JS Image"
             />
             <h3>JS</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </Link>
         </div>
         <div className="section-topics-technology">
@@ -97,7 +94,6 @@ function TopicsSlider() {
               alt="React Image"
             />
             <h3>React</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </Link>
         </div>
         <div className="section-topics-technology">
@@ -110,7 +106,6 @@ function TopicsSlider() {
               alt="Node.js Image"
             />
             <h3>Node.js</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </Link>
         </div>
         <div className="section-topics-technology">
@@ -123,7 +118,6 @@ function TopicsSlider() {
               alt="DevOps Image"
             />
             <h3>DevOps</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </Link>
         </div>
       </Slider>
